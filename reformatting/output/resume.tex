@@ -1,0 +1,142 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+\usepackage{amsmath} % Added for \hrule
+\usepackage{array} % Added for 'p' column in tabular
+\usepackage{ragged2e} % For \RaggedRight to justify list items if needed (not strictly used here, but good for control)
+
+% Define new section format with bold title and a thin hrule
+% Space after the section title line is kept tight
+\titleformat{\section}[block]{\large\bfseries}{}{0em}{\hrule\vspace{0.2em}}
+% Vertical space before and after the section is kept tight
+\titlespacing*{\section}{0pt}{0.5em}{0.1em}
+
+\begin{document}
+
+%==================== Header ====================
+\noindent % Ensures content starts flush with the left margin
+{\Large \textbf{ Sidra Hamid }} \\
+\small
+\href{mailto:sidrahamid2@gmail.com}sidrahamid2@gmail.com \textbar \
++92 317 5025555 \textbar \
+Islamabad, Pakistan \textbar \
+\href{https://linkedin.com/sidra-hamid}{LinkedIn} \textbar \
+\href{https://github.com/Sidra-Hamid}{GitHub}
+\vspace{0.2em}
+
+%==================== Experience ====================
+\section*{EXPERIENCE}
+
+% Dates are right-aligned
+\textbf{ Evoastra Ventures } \hfill \textbf{ 07/2024 - 09/2024 } \\
+% Title left-aligned, location right-aligned
+Data Science Intern \hfill Remote\\[-0.3em]
+\begin{itemize}[leftmargin=1em, noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+
+    \item Developed web scraping scripts using Selenium to gather and analyze data from various online sources, enhancing the dataset for more comprehensive analysis and insights.
+
+    \item Analyzed large datasets using Python libraries like Pandas and Matplotlib, providing actionable insights through comprehensive reports and visualizations.
+
+    \item Built and fine-tuned predictive models with Scikit-learn, achieving high accuracy in forecasting key business metrics and improving decision-making processes.
+
+\end{itemize}\vspace{0.3em} % INCREASED: Changed from -0.5em to +0.3em to add a small gap after each job block
+
+% Dates are right-aligned
+\textbf{ Fusion Flare Tech } \hfill \textbf{ 07/2024 - 09/2024 } \\
+% Title left-aligned, location right-aligned
+Machine Learning Intern \hfill \\[-0.3em]
+\begin{itemize}[leftmargin=1em, noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+
+    \item Created and fine-tuned machine learning models to predict disease outcomes (e.g., COVID-19, thyroid conditions) based on symptom data.
+
+    \item Deployed a chatbot model in a Flutter-based app, utilizing Streamlit and Hugging Face API to answer queries on COVID-19 and thyroid disease, with automated PDF content integration.
+
+    \item Conducted research to improve understanding of AI algorithms and model optimization techniques.
+
+\end{itemize}\vspace{0.3em} % INCREASED: Changed from -0.5em to +0.3em to add a small gap after each job block
+
+
+%==================== Education ====================
+\section*{EDUCATION}
+
+% Years are right-aligned
+\textbf{ National University of Computer and Emerging Sciences } \hfill \textbf{ 2022 - 2026 } \\
+% Degree left-aligned, CGPA (if exists) right-aligned
+Bachelors (Artificial Intelligence) \hfill CGPA: 3.23\\[0.3em] % INCREASED: Changed from 0.1em to 0.3em to add a small gap after each education block
+
+% Years are right-aligned
+\textbf{ Beaconhouse School System } \hfill \textbf{ 2018 - 2022 } \\
+% Degree left-aligned, CGPA (if exists) right-aligned
+O \& A Levels\\[0.3em] % INCREASED: Changed from 0.1em to 0.3em to add a small gap after each education block
+
+
+%==================== Projects ====================
+\section*{PROJECTS}
+
+\textbf{ Exams Schedule Generator using Genetic Algorithm }\\[-0.3em]
+\begin{itemize}[leftmargin=1em, noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+
+    \item Implemented fitness functions to assess schedule quality based on several hard and soft constraints.
+
+    \item Utilized crossover and mutation techniques for genetic variation to explore the solution space effectively.
+
+\end{itemize}\vspace{0.3em} % INCREASED: Changed from -0.5em to +0.3em to add a small gap after each project block
+
+\textbf{ Age Prediction Using Regression Model }\\[-0.3em]
+\begin{itemize}[leftmargin=1em, noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+
+    \item Developed a regression model to predict speaker ages using features of audio samples.
+
+    \item Key feature extraction of audio datasets using libraries such as librosa and parselmouth, along with data preprocessing techniques to clean data.
+
+\end{itemize}\vspace{0.3em} % INCREASED: Changed from -0.5em to +0.3em to add a small gap after each project block
+
+\textbf{ Web Scraping and Interactive Dashboard }\\[-0.3em]
+\begin{itemize}[leftmargin=1em, noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+
+    \item Developed a Python script using Selenium for automated web scraping and documentation of data from sites such as Daraz, rozee.pk and indeed.com.
+
+    \item Used pandas to effectively filter and extract information from data.
+
+    \item Integrated dashboard using PyCharm / Flask to display key data insights.
+
+    \item NLP and NLTK integration to make a simple chatbot to attend to user queries regarding data.
+
+\end{itemize}\vspace{0.3em} % INCREASED: Changed from -0.5em to +0.3em to add a small gap after each project block
+
+\textbf{ Event Management System }\\[-0.3em]
+\begin{itemize}[leftmargin=1em, noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+
+    \item Utilized Node.js for server-side logic and MySQL for database management to create a robust platform for event organization.
+
+    \item Implemented features allowing users to add and manage menu items, performances, tasks, budgets, and announcements, providing a comprehensive event planning toolkit.
+
+    \item Integrated a voting system for users to engage with and prioritize event elements, ensuring dynamic and participatory event planning.
+
+\end{itemize}\vspace{0.3em} % INCREASED: Changed from -0.5em to +0.3em to add a small gap after each project block
+
+\textbf{ Story-to-Audio Generator }\\[-0.3em]
+\begin{itemize}[leftmargin=1em, noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+
+    \item Text-to-Speech system with sentence-level mood detection using rule-based NLP to generate emotionally expressive audio.
+
+    \item Tuned TTS parameters (rate, pitch, volume) based on detected mood and combined sentence-wise audio using pydub.
+
+    \item Interactive Gradio frontend and a gRPC backend server for modular deployment and real-time user interaction.
+
+\end{itemize}\vspace{0.3em} % INCREASED: Changed from -0.5em to +0.3em to add a small gap after each project block
+
+
+%==================== Skills ====================
+\section*{SKILLS}
+
+Python, C++, MySQL, Power BI, Flask, NLTK, NLP, Image Processing, Audio Processing, HTML, CSS, Webscraping, Selenium, WebDev, Data Analysis, Node.js
+
+
+\end{document}

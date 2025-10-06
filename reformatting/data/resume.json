@@ -1,0 +1,92 @@
+{
+    "personal_info": {
+        "name": "Sidra Hamid",
+        "email": "sidrahamid2@gmail.com",
+        "phone": "+92 317 5025555",
+        "location": "Islamabad, Pakistan",
+        "linkedin": "linkedin.com/sidra-hamid",
+        "github": "github.com/Sidra-Hamid"
+    },
+    "skills": [
+        "Python, C++, MySQL, Power BI, Flask, NLTK, NLP, Image Processing, Audio Processing, HTML, CSS, Webscraping, Selenium, WebDev, Data Analysis, Node.js"
+    ],
+    "education": [
+        {
+            "school": "National University of Computer and Emerging Sciences",
+            "degree": "Bachelors (Artificial Intelligence)",
+            "years": "2022 - 2026",
+            "cgpa": "3.23"
+        },
+        {
+            "school": "Beaconhouse School System",
+            "degree": "O & A Levels",
+            "years": "2018 - 2022",
+            "cgpa": ""
+        }
+    ],
+    "work": [
+        {
+            "title": "Data Science Intern",
+            "company": "Evoastra Ventures",
+            "dates": "07/2024 - 09/2024",
+            "location": "Remote",
+            "desc": [
+                "Developed web scraping scripts using Selenium to gather and analyze data from various online sources, enhancing the dataset for more comprehensive analysis and insights.",
+                "Analyzed large datasets using Python libraries like Pandas and Matplotlib, providing actionable insights through comprehensive reports and visualizations.",
+                "Built and fine-tuned predictive models with Scikit-learn, achieving high accuracy in forecasting key business metrics and improving decision-making processes."
+            ]
+        },
+        {
+            "title": "Machine Learning Intern",
+            "company": "Fusion Flare Tech",
+            "dates": "07/2024 - 09/2024",
+            "location": "",
+            "desc": [
+                "Created and fine-tuned machine learning models to predict disease outcomes (e.g., COVID-19, thyroid conditions) based on symptom data.",
+                "Deployed a chatbot model in a Flutter-based app, utilizing Streamlit and Hugging Face API to answer queries on COVID-19 and thyroid disease, with automated PDF content integration.",
+                "Conducted research to improve understanding of AI algorithms and model optimization techniques."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Exams Schedule Generator using Genetic Algorithm",
+            "desc": [
+                "Implemented fitness functions to assess schedule quality based on several hard and soft constraints.",
+                "Utilized crossover and mutation techniques for genetic variation to explore the solution space effectively."
+            ]
+        },
+        {
+            "title": "Age Prediction Using Regression Model",
+            "desc": [
+                "Developed a regression model to predict speaker ages using features of audio samples.",
+                "Key feature extraction of audio datasets using libraries such as librosa and parselmouth, along with data preprocessing techniques to clean data."
+            ]
+        },
+        {
+            "title": "Web Scraping and Interactive Dashboard",
+            "desc": [
+                "Developed a Python script using Selenium for automated web scraping and documentation of data from sites such as Daraz, rozee.pk and indeed.com.",
+                "Used pandas to effectively filter and extract information from data.",
+                "Integrated dashboard using PyCharm / Flask to display key data insights.",
+                "NLP and NLTK integration to make a simple chatbot to attend to user queries regarding data."
+            ]
+        },
+        {
+            "title": "Event Management System",
+            "desc": [
+                "Utilized Node.js for server-side logic and MySQL for database management to create a robust platform for event organization.",
+                "Implemented features allowing users to add and manage menu items, performances, tasks, budgets, and announcements, providing a comprehensive event planning toolkit.",
+                "Integrated a voting system for users to engage with and prioritize event elements, ensuring dynamic and participatory event planning."
+            ]
+        },
+        {
+            "title": "Story-to-Audio Generator",
+            "desc": [
+                "Text-to-Speech system with sentence-level mood detection using rule-based NLP to generate emotionally expressive audio.",
+                "Tuned TTS parameters (rate, pitch, volume) based on detected mood and combined sentence-wise audio using pydub.",
+                "Interactive Gradio frontend and a gRPC backend server for modular deployment and real-time user interaction."
+            ]
+        }
+    ]
+}
